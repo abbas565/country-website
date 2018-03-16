@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* box-sizing reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* end box-sizing reset */
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #0d87c9;
+  font-family: tahoma, chicago, sans-serif;	
+  background-image: url(../images/tehran-body-bg.jpg);
+  background-attachment:fixed;
+  background-size: 1500px 1000px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+    
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	width: 960px;
+	padding: 30px;
+	background-color: #fff;
+	border: 1px solid #000;	
+	margin: 0 auto 30px;
+}
+/* .anc{
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+} */
+
+
+/* nav {
+	background-color: rgb(111, 0, 255);
+  height: 52px;
+  border-inline-start-style: initial;
+  border-inline-end-color: white;
+  border-inline-end-width: 2px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0px;
+  list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	width: 20%;
+	float: left;
+	text-align: center;
+  line-height: 52px;	
+} */
+
+/* nav a:hover,
+nav a:active,
+nav a:focus {
+	background-color: rgba(255, 255, 255, 0.3);
+} */
+li.li-inline-block{
+  display: inline-block;
+  background-color: #0d87c9;
+  width: 19%;
+  height: 40px;
+  text-align: center;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+
+ul{
+  padding-left: 0px;
+}
+/* header li a{
+  text-decoration: none;
+  font-size: 1.0rem;
+  color: white;
+
+} */
+
+nav a:visited{
+  background-color: yellow;
+}
+
+nav a:hover{
+  background-color: aqua;
+}
+nav a:active{
+  background-color: beige;
+}
+nav a:focus{
+  background-color: red;
+}
+
+nav ul{
+  margin-bottom: 0;
+}
+
+nav a{
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 1.0rem;
+  color: white;
+}
+/* Layout Tips
+
+- The banner section has two columns. Use
+  the following values:
+
+  left column - width 77% / margin-right 3%
+  right column - width: 20% */
+
+  .banner-col-01{
+    float: left;
+    width: 77%;
+    margin-right: 3%;
+    margin-top: 15px;
+  }
+  .banner-col-02{
+    float: left;
+    width: 20%;
+    clear: right;
+    margin-top: 15px;
+  }
+
+  
+  /*
+
+- The main-content section has three columns.
+  Use the folllowing values:
+
+  left column - width 20%
+  centre column - width 54% / margin-left 3% / margin-right 3%
+  right column - width 20%
+
+ - If your layout breaks while floating elements, make sure you
+   are putting clearfix code on the parent elements.
+
+ - Clearfix code:
+
+   parent-element:after {
+		content: "";
+        display: table;
+        clear: both;
+   }
+
+*/
+/* .col{
+  float: left;
+} */
+
+
+.col h1{
+  font-size: 20px;
+}
+
+.col-01{
+  float:left;
+  width: 20%;
+  clear: left;
+  
+}
+
+.col-01 li{
+margin-bottom: 15px;
+padding-bottom: 15px;
+border-bottom: 1px dashed rgb(0, 162, 255);
+}
+
+.col-01 a{
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+}
+
+.col-02{
+  float:left;
+  width: 54%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.col-02 a{
+  font-size: 17px;
+  color: blue;
+}
+.col-03{
+  float: left;
+  width: 20%;
+}
+
+.col-03 p{
+  color: blue;
+  text-decoration-line: underline;
+}
+
+.clearfix::after {
+  content: "";
+      display: table;
+      clear: both;
+ }
+
+ footer{
+   text-align: center;
+   border-top-style: dashed;
+   border-top: 1px dashed rgb(0, 162, 255);
+   margin-top: 30px;
+   padding-top: 20px;
+ }
+
+ section article{
+   background-color: rgb(240, 236, 236);
+   border: 1px dashed black;
+   margin-bottom: 10px;
+   padding: 10px 10px 20px 10px;
+ }
+
+ article ul{
+   list-style: none;
+   padding: 0;
+ }
+ article h2 {
+   font-size: 15px;
+ }
+
+ .banner-col-02 ul{
+   padding-left: 20px;
+ }
+ 
+
+
